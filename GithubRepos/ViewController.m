@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RepoClass.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -47,7 +48,8 @@
         
         // If we reach this point, we have successfully retrieved the JSON from the API
         for (NSDictionary *repo in repos) { // 4
-            [self.repoArr addObject:repo];
+            RepoClass *repoObj = [[RepoClass alloc] initWithRepoDict:repo];
+            [self.repoArr addObject:repoObj];
             NSString *repoName = repo[@"name"];
             NSLog(@"repo: %@", repoName);
         }
@@ -76,8 +78,8 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"myCell"];
-    
-    cell.textLabel.text = self.repoArr[indexPath.row][@"name"];
+    RepoClass *thisRepo = self.repoArr[indexPath.row];
+    cell.textLabel.text = thisRepo.name;
     return cell;
 }
 

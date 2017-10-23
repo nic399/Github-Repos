@@ -6,9 +6,9 @@
 //  Copyright © 2017 Nicholas Fung. All rights reserved.
 //
 
-#import "repoClass.h"
+#import "RepoClass.h"
 
-@implementation repoClass
+@implementation RepoClass
 
 - (instancetype)initWithRepoDict:(NSDictionary *)repoDict {
     self = [super init];

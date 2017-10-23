@@ -13,7 +13,7 @@
 		013E52191F9E709900BC08BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013E52181F9E709900BC08BD /* Assets.xcassets */; };
 		013E521C1F9E709900BC08BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013E521A1F9E709900BC08BD /* LaunchScreen.storyboard */; };
 		013E521F1F9E709900BC08BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E521E1F9E709900BC08BD /* main.m */; };
-		013E52271F9E76C300BC08BD /* repoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E52261F9E76C300BC08BD /* repoClass.m */; };
+		013E52271F9E76C300BC08BD /* RepoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E52261F9E76C300BC08BD /* RepoClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		013E521B1F9E709900BC08BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		013E521D1F9E709900BC08BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013E521E1F9E709900BC08BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		013E52251F9E76C300BC08BD /* repoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = repoClass.h; sourceTree = "<group>"; };
-		013E52261F9E76C300BC08BD /* repoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = repoClass.m; sourceTree = "<group>"; };
+		013E52251F9E76C300BC08BD /* RepoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoClass.h; sourceTree = "<group>"; };
+		013E52261F9E76C300BC08BD /* RepoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				013E52101F9E709900BC08BD /* AppDelegate.m */,
 				013E52121F9E709900BC08BD /* ViewController.h */,
 				013E52131F9E709900BC08BD /* ViewController.m */,
-				013E52251F9E76C300BC08BD /* repoClass.h */,
-				013E52261F9E76C300BC08BD /* repoClass.m */,
+				013E52251F9E76C300BC08BD /* RepoClass.h */,
+				013E52261F9E76C300BC08BD /* RepoClass.m */,
 				013E52151F9E709900BC08BD /* Main.storyboard */,
 				013E52181F9E709900BC08BD /* Assets.xcassets */,
 				013E521A1F9E709900BC08BD /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 			files = (
 				013E52141F9E709900BC08BD /* ViewController.m in Sources */,
 				013E521F1F9E709900BC08BD /* main.m in Sources */,
-				013E52271F9E76C300BC08BD /* repoClass.m in Sources */,
+				013E52271F9E76C300BC08BD /* RepoClass.m in Sources */,
 				013E52111F9E709900BC08BD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

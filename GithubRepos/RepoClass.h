@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface repoClass : NSObject
+@interface RepoClass : NSObject
 
 @property (nonatomic, strong, readonly) NSDictionary *repoDict;
 @property (nonatomic, copy, readonly) NSString *name;
+
+
+- (instancetype)initWithRepoDict:(NSDictionary *)repoDict;
 
 @end
